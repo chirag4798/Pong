@@ -67,10 +67,7 @@ pen1.color(FGCOLOR)
 pen1.penup()
 pen1.hideturtle()
 pen1.goto(0, 260)
-pen1.write(
-	"Player A: 0    AI: 0", 
-	align="center", 
-	font=("Courier", 24, "bold"))
+pen1.write("Player A: 0    AI: 0", align="center", font=("Courier", 24, "bold"))
 
 # Instructions
 pen2 = turtle.Turtle()
